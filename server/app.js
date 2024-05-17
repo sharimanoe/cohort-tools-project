@@ -2,7 +2,7 @@ const studentRouter = require("./routes/students.routes");
 const cohortRouter = require("./routes/cohort.routes");
 const authRouter = require("./routes/auth.routes");
 const userRouter = require("./routes/user.routes");
-
+const express = require("express");
 require("dotenv").config();
 
 const {
